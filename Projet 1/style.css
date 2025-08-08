@@ -1,0 +1,54 @@
+/* 2. Styling the body */
+body {
+    background-color: #fff8f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 2. Styling the header */
+h1 {
+   color: #8b0000;
+   font-size: 2.5rem;
+    text-align: center;
+}
+
+/* 3. Styling the image */
+img {
+    max-width: 400px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* 4. Styling sections */
+h2 {
+    color: #a0522d;
+    border-bottom: 2px solid #d2b48c;
+    padding-bottom: 5px;
+}
+section {
+    margin-bottom: 20px;
+    background-color: #fff4e6;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* 5. Styling lists */
+ul, ol {
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 5px;
+}
+
+/* 6. Styling nutrition facts */
+.nutrition {
+    background-color: #ffe4b5;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+
