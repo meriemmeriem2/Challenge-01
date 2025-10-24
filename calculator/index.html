@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="display" class="display" disabled>
+    <div class="grid-container">
+      <button class="item item1" onclick="clearDisplay()">C</button>
+      <button class="item item2" onclick="appendToDisplay('7')">7</button>
+      <button class="item item3" onclick="appendToDisplay('8')">8</button>
+      <button class="item item4" onclick="appendToDisplay('9')">9</button>
+      <button class="item item5" onclick="appendToDisplay('/')">/</button>
+      <button class="item item6" onclick="appendToDisplay('4')">4</button>
+      <button class="item item7" onclick="appendToDisplay('5')">5</button>
+      <button class="item item8" onclick="appendToDisplay('6')">6</button>
+      <button class="item item9" onclick="appendToDisplay('*')">*</button>
+      <button class="item item10" onclick="appendToDisplay('1')">1</button>
+      <button class="item item11" onclick="appendToDisplay('2')">2</button>
+      <button class="item item12" onclick="appendToDisplay('3')">3</button>
+      <button class="item item13" onclick="appendToDisplay('-')">-</button>
+      <button class="item item14" onclick="appendToDisplay('0')">0</button>
+      <button class="item item15" onclick="appendToDisplay('.')">.</button>
+      <button class="item item16" onclick="calculateResult()">=</button>
+      <button class="item item17" onclick="appendToDisplay('+')">+</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
